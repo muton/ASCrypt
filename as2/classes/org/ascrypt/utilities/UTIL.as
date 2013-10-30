@@ -84,7 +84,7 @@ class org.ascrypt.utilities.UTIL
 	*/
 	public static function format(string:String):String
 	{
-		arguments.pop();
+		arguments.shift();
 		var l:Number = arguments.length;
 		for (var i:Number = 0; i < l; i++)
 		{
